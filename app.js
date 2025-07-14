@@ -8,9 +8,14 @@ const app = express();
 
 // Database connection
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'Password',
+    //host: 'localhost',
+    //user: 'root',
+    //password: 'Password',
+    //database: 'C237_usersdb'
+    host:'host shown on database info',
+    port: 3307,
+    user: 'database username shown on database info',
+    password: 'database password shown on database info',    
     database: 'C237_usersdb'
 });
 
